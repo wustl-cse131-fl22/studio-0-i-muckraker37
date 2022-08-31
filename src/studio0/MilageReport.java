@@ -9,7 +9,7 @@ public class MilageReport {
 		
 		int totalMiles = car1miles + car2miles + car3miles;
 		double milesPerGallon = 24.5;
-		double totalGallons = totalMiles * milesPerGallon;
+		double totalGallons = totalMiles / milesPerGallon; //needed to divide miles by MPG as opposed to multiply
 		double pricePerGallon = 3.05;
 		double totalPrice = totalGallons * pricePerGallon;
 		
